@@ -6,3 +6,4 @@ kubectl get nodes
 kubectl get pods
 kubectl apply -f pod.yaml
 kubectl logs <pod_name>
+minikube image build -t my image .

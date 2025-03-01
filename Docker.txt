@@ -1,0 +1,15 @@
+All the basic docker commands
+
+docker --version
+docker ps -a
+docker start <container_id>
+docker stop <container_id>
+docker restart <container_id>
+docker run <image_name>
+docker images
+docker logs <container_id>
+docker top <container_id>
+docker stats
+docker build -t <image_name> .
+
+kubectl create deployment <yourdeploymentname> --image=<image_name>:latest --dry-run=client -o yaml > deployment.yaml

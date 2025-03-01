@@ -1,0 +1,8 @@
+All the basic kubernetes commands
+
+kubectl version --client
+kubectl cluster-info
+kubectl get nodes
+kubectl get pods
+kubectl apply -f pod.yaml
+kubectl logs <pod_name>

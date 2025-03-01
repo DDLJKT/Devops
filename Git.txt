@@ -1,0 +1,22 @@
+All the basic kubernetes commands
+
+git --version
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+git config --list
+git init
+git clone <repo_url>
+git status
+git add .
+git commit -m "Your commit message"
+git branch
+git branch <new_branch>
+git checkout <branch_name>
+git checkout -b <new_branch>
+git merge <branch_name>
+git remote -v
+git fetch
+git pull origin <branch_name>
+git push origin <branch_name>
+git push --force
+git log
